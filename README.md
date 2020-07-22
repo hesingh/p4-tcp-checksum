@@ -2,10 +2,10 @@ See https://github.com/p4lang/p4c/pull/2474
 
 # Steps to test checksum for Sara
 
-1. Add test-tcp3-bmv2.p4 and test-tcp3-bmv2.stf from this repo to your
+1. Add `test-tcp3-bmv2.p4` and `test-tcp3-bmv2.stf` from this repo to your
    p4c/testdata/p4_16_samples/ directory.
    
-2. Go to p4c/build and issue the cmake cmd: `cmake -DCMAKE_BUILD_TYPE=DEBUG ..`
+2. Go to `p4c/build` and issue the cmake cmd: `cmake -DCMAKE_BUILD_TYPE=DEBUG ..`
 
 3. The cmake cmd adds a new test to p4c called `test-tcp3-bmv2.p4.test`
 
